@@ -1,0 +1,182 @@
+Anotações do curso de JavaScript do Curso em Vídeo
+Aula1:
+    Arquitetura cliente X servidor
+    Website = HTLM, CSS, JavaScript
+
+Aula2 - Evolução do JavaScript
+    1970 - internet
+    1993 - HTML, protocolo http e WWW - world wide Web
+    1994 - netscape (navegador)
+    1995 - Mocka (JavaScript) - JAVA
+    1997 - ecma - padronização da linguagem
+        ecma script
+    2002 - Internet explorer - navegadormais famoso
+    2008 - google chrome
+        motor interno V8 - JavaScript
+    2010 - nodeJS
+        maquina que roda JS fora do navegador
+    EcmaScript
+        versao padronizada do JavaScript
+        1997
+        2009 - EcmaScript5
+        2015 - EcmaScript6
+        EcmaScript versao por ano
+
+Aula3 - Dando os primeiros passos
+    Bibliografia
+        Javascript - o guia definitivo
+        JavaScript - Guia do programador
+        instalação do chrome, vscode e nodeJS
+        https://developer.mozilla.org/en-US/docs/Web/Events
+
+Aula4 - Primeiros passos
+    mão na massa
+
+Aula5 - Variáveis
+    var v = valor
+    var v = "texto1"
+    var v = 'texto2'
+    var v = ´texto3´
+
+    Identificadores:
+        podem começar com -> Letra, $ ou _
+        não podem começar com números
+        posso usar letras e números
+        posso usar acentos e símbolos
+        não podem conter expaços
+        não podem ser usadas palavras reservadas para comandos
+
+    dicas para nomes
+        maiusculas e minusculas fazem diferenças
+        nomes coerentes
+
+    tipos primitivos
+        number
+            infinity
+            NaN
+        string
+        boolean
+        null
+        undefined
+        object
+            array
+        function
+
+    typeof - mudança de tipo primitivo das Variáveis
+
+Aula6 - tratamento de dados
+    number e boolean
+    mão na massa
+    exercícios da aula 06 =002, 003, 004 com tratamento de strings
+    e tratamento de numeros:
+        vaiavel.toFixed(2) -> formata a variavel com 2 casas decimais
+        variavel.toFixed(2).replace('.', ',') -> troca o ponto do numero por virgula
+        variavel.toLocaleString('pt-BR' , {style: 'currency', currency: 'BRL'})        
+
+Aula7 - Operadores - Pt1
+    aritimeticos
+    atribuição
+    relacionais
+    logicos
+    ternario
+
+    aritimeticos
+        5 + 2 = 7
+        5 - 2 = 3
+        5 * 2 = 10
+        5 / 2 = 2.5
+        5 % 2 = 1
+        5 ** 2 = 25
+    
+    ordens de precedencia
+        ()
+        **
+        * / %
+        + -
+    
+    Simplificando as atribuições
+    variavel += valor => valor da variavel mais o valor
+
+Aula8 - Operadores - Pt2
+    relacionais
+    >
+    <
+    >=
+    <=
+    ==
+    !=
+
+    lógicos
+    ! - negação
+    && - conjunção e
+    || -  disjunções ou
+
+    ternario
+    ?
+    :
+    teste?true:false
+
+Aula9 - Introdução ao DOM
+    Document Object Model - Tratamento de componentes visuais
+    Arvore DOM
+    Manipulando DOM
+    Extenção watch in chrome
+    node exec
+
+    Mão na massa
+        pasta aula 9 ex005
+
+    Arvore DOM
+        window -> Janela do navegador
+            location -> localização do site
+            document -> documento atual
+                html
+                    head
+                        meta
+                        title
+                    body
+                        h1
+                        p
+                        p
+                            strong
+                        div
+            history -> histórico
+        
+        Selecionando elementos por:
+            Marca
+                getElementsByTagName()
+            ID
+            Nome
+            Classe
+            Seletor
+
+Aula10 - Eventos DOM
+    ex006
+        Eventos com o mouse
+            mouseenter
+            mousemove
+            mousedown
+            mouseup
+            click
+            mouseout
+
+Aula11 - Condições Pt1
+    Condição simples
+        if (condição) {}
+    Condição composta
+    if (condição) {} else {}
+
+    ex008 e 009 e 010
+
+Aula12 - Condições Pt2
+    aulas praticas de condições aninhadas
+
+    e condiçõe multiplas
+        switch(expressao){
+            case1:
+                break
+            case2:
+                break
+            default:
+                break
+        }
