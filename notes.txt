@@ -180,3 +180,35 @@ Aula12 - Condições Pt2
             default:
                 break
         }
+
+Aula13 - Repetições Pt1
+    while / do while / for
+
+    laçoes ou iterações
+
+    Estruturas de controles
+        sequencia
+            executo tarefas sequencialmente
+            passo a passo
+        
+        Condições 
+            teste lógicos
+            tarefas
+
+        Repetições  
+            teste logicos
+            tarefas
+            loop
+        
+        while (condição) {
+        }
+
+        do{
+        }
+        while (condição)
+
+Aula14 - Repetições Pt2  
+    for
+
+    for (inicio; teste; incremento{
+    }
