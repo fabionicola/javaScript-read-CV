@@ -213,3 +213,20 @@ Aula14 - Repetições Pt2
     for (inicio; teste; incremento{
     }
 
+Aula15 - Variáveis compostas
+
+    array - composto por elementos que tem indices ou chaves que armazenam conteudo
+
+    let num = [ , , ]
+
+Aula16 - Funções
+    chamada, parametros, ação, retorno
+
+    ação()
+
+    function ação(param){
+        ações
+
+        return
+    }
+    
