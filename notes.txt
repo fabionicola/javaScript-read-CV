@@ -229,4 +229,28 @@ Aula16 - Funções
 
         return
     }
-    
+
+Aula17 - Próximos passos
+
+    - Funções
+        eron function
+        callback
+        iifes
+    - objetos
+        POO
+    - modularização
+    - RegEx
+        expressões regulares
+    - JSON
+    - AJAX
+    - NodeJs
+
+    declaramos objetos com {}
+
+    let amigo = {   ,   ,   ,   ,   }
+
+    let amigo = {nome:'José',sexo:sexo'M',peso:85.4,engordar(p){}}
+
+    amigo -> nome/sexo/peso/engordar()
+    amigo -> var/var/var/function
+
